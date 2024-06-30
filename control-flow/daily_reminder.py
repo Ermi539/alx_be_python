@@ -11,7 +11,7 @@ match priority:
     case _:
         reminder = "Invalid priority level."
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    reminder += "Reminder:  that requires immediate attention today!"
 elif time_bound == "no":
-    reminder += ". Consider completing it when you have free time."
-print("Customized Reminder:",reminder)
+    reminder += "Note: Consider completing it when you have free time."
+print(reminder)
