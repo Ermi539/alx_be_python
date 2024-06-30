@@ -11,7 +11,7 @@ match priority:
     case _:
         reminder = "Invalid priority level."
 if time_bound == "yes":
-    reminder += "Reminder:  that requires immediate attention today!"
+    reminder += "Reminder: 'Finish project report' is a high priority task that requires immediate attention today!"
 elif time_bound == "no":
-    reminder += "Note: Consider completing it when you have free time."
+    reminder += "Note: 'Read a book' is a low priority task. Consider completing it when you have free time."
 print(reminder)
