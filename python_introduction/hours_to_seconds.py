@@ -1,4 +1,3 @@
 hours = 2
-seconds = 3600
-hourstoseconds = hours*seconds
-print(hours,"hour(s) is ",hourstoseconds,"seconds")
+hours_to_seconds = hours * 3600
+print(hours,"hour(s) is",hours_to_seconds,"seconds")
