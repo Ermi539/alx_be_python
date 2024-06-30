@@ -14,4 +14,4 @@ if time_bound == "yes":
     reminder += "Reminder: 'Finish project report' is a high priority task that requires immediate attention today!"
 elif time_bound == "no":
     reminder += "Note: 'Read a book' is a low priority task. Consider completing it when you have free time."
-print(reminder)
+print()
